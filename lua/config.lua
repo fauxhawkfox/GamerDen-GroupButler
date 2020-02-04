@@ -42,7 +42,7 @@ local _M =
 	},
 	redis =
 	{
-		host = os.getenv('REDIS_HOST') or 'localhost',
+		host = os.getenv('REDIS_URL') or 'localhost',
 		port = os.getenv('REDIS_PORT') or 6379,
 		db = os.getenv('REDIS_DB') or 0
 	},
