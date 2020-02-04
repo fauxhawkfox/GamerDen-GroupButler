@@ -1,1 +1,1 @@
-web: ./polling.lua
+worker: ./polling.lua
