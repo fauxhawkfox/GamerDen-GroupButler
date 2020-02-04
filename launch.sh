@@ -13,7 +13,7 @@ make_template() {
 }
 
 case $1 in bot | "")
-	source .env && export $(cut -d= -f1 .env)
+	# source .env && export $(cut -d= -f1 .env)
 	while true; do
 		./polling.lua
 		sleep 10
