@@ -1,4 +1,4 @@
-#!/usr/bin/env/lua
+#!/usr/bin/env lua
 package.path=package.path .. ';./lua/?.lua'
 
 local api = require 'methods'
